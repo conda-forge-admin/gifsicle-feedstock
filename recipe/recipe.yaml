@@ -2,11 +2,11 @@ schema_version: 1
 
 context:
   name: gifsicle
-  version: "1.96"
+  version: 1.96
 
 package:
   name: ${{ name|lower }}
-  version: ${{ version }}
+  version: "${{ version }}"
 
 source:
   url: https://github.com/kohler/gifsicle/archive/v${{ version }}.tar.gz
